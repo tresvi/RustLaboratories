@@ -1,0 +1,6 @@
+cargo new hello_world
+cargo new hello_world --vcs git     //Para crear con soporte git. Incluye gitignore
+cargo build     //genera el binario en .\target\debug\hello_world.exe
+cargo build --release    //genera el binario en .\target\release\hello_world.exe con la optimizacion correspondiente
+cargo run		//Compila y ejecuta
+cargo check		//Chequea que el codigo sea compilable
